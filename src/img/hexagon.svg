@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg width="3000" height="1750" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M 0 0 L 471 0 L 0 816" fill="rgb(25,25,25)"/>
+    <path d="M 0 1750 L 471 1750 L 0 916" fill="rgb(25,25,25)"/>
+    <path d="M 558 50 L 1500 50 L 1971 866 L 1500 1682 L 558 1682 L 87 866" fill="rgb(25,25,25)"/>
+    <path d="M 1587 0 L 3000 0 L 3000 816 L 2058 816" fill="rgb(25,25,25)"/>
+    <path d="M 1587 1750 L 3000 1750 L 3000 916 L 2058 916" fill="rgb(25,25,25)"/>
+</svg>

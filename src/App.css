@@ -5,6 +5,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./img/backgroundGradient.png');
+  background-position-y: center;
+  background-size: cover;
+  animation: anim 5s linear infinite;
+  min-height: 100vh;
+}
+@keyframes anim{
+  0%   {background-position-x: 100%;}
+  100% {background-position-x:   0%;}
+}
+#root{
+  background-image: url("./img/hexagon.svg");
+  background-size: 100px 58px;
+  padding-top: 4.8vh;
+  min-height: 95.2vh;
 }
 
 code {
