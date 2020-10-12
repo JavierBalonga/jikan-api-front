@@ -28,7 +28,7 @@ export default function Card ({anime}) {
         <div className={s.card} style={{backgroundImage: `url(${anime.image_url})`}} ref={ref} >
             <div className={s.rightSlide}>
                 {anime.score && <h5 className={s.score}>Score {anime.score}</h5>}
-                <Link to={`/anime/${anime.mal_id}`}><h5 className={s.title}>{anime.title}</h5></Link>
+                <Link to={`/jikan-api-front/anime/${anime.mal_id}`}><h5 className={s.title}>{anime.title}</h5></Link>
             </div>
             {
                 hover  && trailer.id === anime.mal_id &&

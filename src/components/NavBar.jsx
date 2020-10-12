@@ -7,7 +7,7 @@ import SearchBar from './SearchBar.jsx';
 export default function NavBar(props) {
     return (
         <div className={s.navBar}>
-            <Link to={`/`}><Logo/></Link>
+            <Link to="/jikan-api-front/"><Logo/></Link>
             <SearchBar/>
         </div>
     )

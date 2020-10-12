@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <Route exact path='/' component={Schedule} />
-      <Route path='/anime/:id' render={({match:{params:{id}}})=>(<AnimeDetail id={id} />)} />
+      <Route exact path='/jikan-api-front/' component={Schedule} />
+      <Route path='/jikan-api-front/anime/:id' render={({match:{params:{id}}})=>(<AnimeDetail id={id} />)} />
     </div>
   );
 }
