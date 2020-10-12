@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "359ae051cdf384a5c85cef56e408a61e",
+    "revision": "f3baa2ba5a971c1febb07f7696d1abfc",
     "url": "/jikan-api-front/index.html"
   },
   {
-    "revision": "b81accc68225c60fd702",
-    "url": "/jikan-api-front/static/css/main.ece54db0.chunk.css"
+    "revision": "4a7130775f797635366d",
+    "url": "/jikan-api-front/static/css/main.3a17f192.chunk.css"
   },
   {
     "revision": "9ae7ef11fc8b2b533ac4",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jikan-api-front/static/js/2.f11a8fae.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b81accc68225c60fd702",
-    "url": "/jikan-api-front/static/js/main.27b308f7.chunk.js"
+    "revision": "4a7130775f797635366d",
+    "url": "/jikan-api-front/static/js/main.d85fc2b5.chunk.js"
   },
   {
     "revision": "865e55d0923820ef1753",
