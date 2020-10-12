@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/jikan-api-front/static/css/main.ece54db0.chunk.css",
+    "main.js": "/jikan-api-front/static/js/main.27b308f7.chunk.js",
+    "main.js.map": "/jikan-api-front/static/js/main.27b308f7.chunk.js.map",
+    "runtime-main.js": "/jikan-api-front/static/js/runtime-main.f3d885ce.js",
+    "runtime-main.js.map": "/jikan-api-front/static/js/runtime-main.f3d885ce.js.map",
+    "static/js/2.f11a8fae.chunk.js": "/jikan-api-front/static/js/2.f11a8fae.chunk.js",
+    "static/js/2.f11a8fae.chunk.js.map": "/jikan-api-front/static/js/2.f11a8fae.chunk.js.map",
+    "index.html": "/jikan-api-front/index.html",
+    "precache-manifest.31a230e0b118f0b1d4d150f3e4b12036.js": "/jikan-api-front/precache-manifest.31a230e0b118f0b1d4d150f3e4b12036.js",
+    "service-worker.js": "/jikan-api-front/service-worker.js",
+    "static/css/main.ece54db0.chunk.css.map": "/jikan-api-front/static/css/main.ece54db0.chunk.css.map",
+    "static/js/2.f11a8fae.chunk.js.LICENSE.txt": "/jikan-api-front/static/js/2.f11a8fae.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/jikan-api-front/static/media/hexagon.4934e72d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f3d885ce.js",
+    "static/js/2.f11a8fae.chunk.js",
+    "static/css/main.ece54db0.chunk.css",
+    "static/js/main.27b308f7.chunk.js"
+  ]
+}
