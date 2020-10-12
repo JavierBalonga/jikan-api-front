@@ -5,7 +5,7 @@ import NavBar from './components/NavBar.jsx'
 import Schedule from './components/Schedule.jsx'
 import AnimeDetail from './components/AnimeDetail.jsx'
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <NavBar/>
@@ -14,5 +14,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

@@ -5,6 +5,7 @@
     border-radius: 10px;
     transform: perspective(800px) translate3d(0,-10%,-200px);
     transition: 500ms;
+    box-shadow: 0 0 30px aqua;
     height: 18vh;
 }
 @media (min-width: 576px) {.card{ min-width: 35.0vw; margin-left: -1vw; margin-right: -1vw;}}
