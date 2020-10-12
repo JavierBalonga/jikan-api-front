@@ -1,0 +1,48 @@
+.card{
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    border-radius: 10px;
+    transform: perspective(800px) translate3d(0,-10%,-200px);
+    transition: 500ms;
+    height: 18vh;
+}
+@media (min-width: 576px) {.card{ min-width: 35.0vw; margin-left: -1vw; margin-right: -1vw;}}
+@media (min-width: 768px) {.card{ min-width: 26.8vw; margin-left: -1vw; margin-right: -1vw;}}
+@media (min-width: 992px) {.card{ min-width: 21.8vw; margin-left: -1vw; margin-right: -1vw;}}
+.card:hover{
+    transform: perspective(800px) translate3d(0,-20%,0px);
+    z-index: 1;
+}
+.rightSlide{
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    top: 0%;
+    right: -100%;
+    transition: 1s;
+}
+.rightSlide:hover{
+    right: 0%;
+}
+.title{
+    position: absolute;
+    right: 0;
+    bottom: -25px;
+    width: 15%;
+    vertical-align: bottom;
+    background-color: aqua;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    opacity: .9;
+}
+.score{
+    position: absolute;
+    right: 0;
+    top: -25px;
+    height: 20px;
+    background-color: aqua;
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+    opacity: .9;
+}

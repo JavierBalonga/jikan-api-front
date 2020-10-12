@@ -1,0 +1,22 @@
+.searchBar{
+    display: flex;
+    align-items: center;
+    height: 3vh;
+    margin: 20px;
+    background-color: whitesmoke;
+    border-radius: 2vh;
+}
+.input{
+    background-color: transparent;
+    border: none;
+    border-right: gray 1px solid;
+    height: 3vh;
+    padding-left: 10px;
+    
+}
+.button{
+    background-color: transparent;
+    border: none;
+    border-left: gray 1px solid;
+    height: 3.2vh;
+}
