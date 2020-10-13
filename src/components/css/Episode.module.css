@@ -1,0 +1,16 @@
+.episode{
+    max-height: 40px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00a6ff;
+    box-shadow: 0 0 30px #00a6ff;
+    opacity: 0.6;
+    transition: 500ms;
+}
+.episode:hover{
+    opacity: 1;
+}

@@ -1,49 +1,64 @@
+.container{
+    position: relative;
+    display: flex;
+    transform: perspective(800px) translateZ(-200px);
+    transition: 500ms;
+    margin-left: -1.9vw;
+    margin-right: -1.9vw;
+    height: 28.1vw; min-width: 50.0vw;
+}
+.container:hover{
+    transform: perspective(800px);
+    z-index: 1;
+    height: 39.1vw;
+}
 .card{
+    align-self: center;
+    width: 100%;
     background-size: cover;
     background-position: center;
-    overflow: hidden;
     border-radius: 10px;
-    transform: perspective(800px) translate3d(0,-10%,-200px);
-    transition: 500ms;
     box-shadow: 0 0 30px aqua;
-    height: 18vh;
-}
-@media (min-width: 576px) {.card{ min-width: 35.0vw; margin-left: -1vw; margin-right: -1vw;}}
-@media (min-width: 768px) {.card{ min-width: 26.8vw; margin-left: -1vw; margin-right: -1vw;}}
-@media (min-width: 992px) {.card{ min-width: 21.8vw; margin-left: -1vw; margin-right: -1vw;}}
-.card:hover{
-    transform: perspective(800px) translate3d(0,-20%,0px);
     z-index: 1;
+    height: 28.1vw;
 }
-.rightSlide{
-    height: 100%;
-    width: 300%;
-    position: absolute;
-    top: 0%;
-    right: -100%;
-    transition: 1s;
+@media (min-width: 576px) {
+    .container{ height: 19.7vw; min-width: 35.0vw;}
+    .container:hover{ height: 25.3vw;}
+    .card{ height: 19.7vw;}
 }
-.rightSlide:hover{
-    right: 0%;
+@media (min-width: 768px) {
+    .container{ height: 15.1vw; min-width: 26.8vw;}
+    .container:hover{ height: 20.7vw;}
+    .card{ height: 15.1vw;}
 }
-.title{
-    position: absolute;
-    right: 0;
-    bottom: -25px;
-    width: 15%;
-    vertical-align: bottom;
-    background-color: aqua;
-    padding: 5px;
-    border-top-left-radius: 10px;
-    opacity: .9;
+@media (min-width: 992px) {
+    .container{ height: 12.3vw; min-width: 21.8vw;}
+    .container:hover{ height: 16.5vw;}
+    .card{ height: 12.3vw;}
 }
 .score{
     position: absolute;
-    right: 0;
-    top: -25px;
+    right: 10px;
+    top: -2.4vh;
     height: 20px;
     background-color: aqua;
     padding: 5px;
-    border-bottom-left-radius: 10px;
+    border-radius: 10px;
+    opacity: .9;
+}
+.video{
+    z-index: 2;
+    border-radius: 10px;
+}
+.title{
+    position: absolute;
+    right: 10px;
+    bottom: -2.4vh;
+    width: 75%;
+    vertical-align: bottom;
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 10px;
     opacity: .9;
 }

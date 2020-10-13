@@ -16,7 +16,7 @@ export default function SearchBar(props){
     return(
         <div className={s.searchBar}>
             <form onSubmit={onSubmit} >
-                <input className={s.input} onChange={onChange} value={input} placeholder="Search an Anime !" />
+                <input className={s.input} onChange={onChange} value={input} placeholder="Roto T-T" />
                 <input className={s.button} type="submit" value="Search"/>
             </form>
         </div>

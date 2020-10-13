@@ -8,9 +8,9 @@ import AnimeDetail from './components/AnimeDetail.jsx'
 export default function App() {
   return (
     <div className="App">
-      <NavBar/>
       <Route exact path='/jikan-api-front/' component={Schedule} />
       <Route path='/jikan-api-front/anime/:id' render={({match:{params:{id}}})=>(<AnimeDetail id={id} />)} />
+      <NavBar/>
     </div>
   );
 }

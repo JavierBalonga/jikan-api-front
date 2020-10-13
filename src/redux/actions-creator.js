@@ -2,6 +2,7 @@ export const SEARCH_ANIME = 'SEARCH_ANIME';
 export const GET_SCHEDULE = 'GET_SCHEDULE';
 export const GET_ANIME_DETAIL = 'GET_ANIME_DETAIL';
 export const GET_ANIME_VIDEOS = 'GET_ANIME_VIDEOS';
+export const GET_ANIME_EPISODES = 'GET_ANIME_EPISODES';
 
 export function searchAnime(anime, page = 1){
     return function(dispatch) {
@@ -47,11 +48,17 @@ export function getAnimeVideos(id){
         return fetch(`https://api.jikan.moe/v3/anime/${id}/videos`)
             .then(response => response.json())
             .then(response => {
-                dispatch({ type: GET_ANIME_VIDEOS, payload: {
-                    id: id,
-                    trailers: response.promo,
-                    episodes: response.episodes
-                }});
+                dispatch({type: GET_ANIME_VIDEOS, id: id, payload: response});
+            });
+    };
+}
+
+export function getAnimeEpisodes(id){
+    return function(dispatch) {
+        return fetch(`https://api.jikan.moe/v3/anime/${id}/episodes`)
+            .then(response => response.json())
+            .then(response => {
+                dispatch({type: GET_ANIME_EPISODES, id: id, payload: response.episodes});
             });
     };
 }

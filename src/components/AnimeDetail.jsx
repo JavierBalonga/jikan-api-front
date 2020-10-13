@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { getAnimeDetail } from '../redux/actions-creator.js'
-import s from './css/AnimeDetail.module.css'
+import { getAnimeDetail } from '../redux/actions-creator.js';
+import s from './css/AnimeDetail.module.css';
+import Episodes from './Episodes.jsx';
 
 export default function AnimeDetail({id}){
     const dispatch = useDispatch();
@@ -11,6 +12,7 @@ export default function AnimeDetail({id}){
     },[dispatch, id])
     return(
         <div className={s.container}>
+            <h1>{title}</h1>
             <div className={s.animeDetail}>
                 <div className={s.left}>
                     <img className={s.image} src={image_url} alt=""/>
@@ -26,11 +28,12 @@ export default function AnimeDetail({id}){
                             width="100%" 
                             height="100%" 
                             frameBorder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" /* autoplay; */
                             allowFullScreen
                         />
                     </div>
                     <p>{synopsis}</p>
+                    <Episodes id={id}/>
                 </div>
             </div>
         </div>

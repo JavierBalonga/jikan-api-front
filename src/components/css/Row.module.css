@@ -1,17 +1,43 @@
 .container{
-    overflow: hidden;
-    height: 23.2vh;
+    position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 .title{
+    margin: 0;
+    padding-left: 2vw;
     position: sticky;
-    left: 20px;
-    height: 10%;
-    color: white;
+    top: 0; left: 0;
 }
-.row{
+.row, .contain{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
+.contain{
+    overflow: hidden;
+    padding-left: 4.3vw;
+    padding-right: 4.3vw;
+    scroll-behavior: smooth;
+}
+.left, .right{
+    position: absolute;
+    top: 4%;
+    height: 16vw;
+    min-width: 4.3vw;
+    z-index: 3;
+    opacity: 0;
+    transition: 500ms;
+    border: none;
+    background-color: transparent;
+    background-image: radial-gradient(black 25%, transparent);
+    color: white;
+    font-size: 0px;
+}
+.left:hover, .right:hover{ opacity: 0.6; font-size: 70px;}
+.left:hover, .right:hover{ opacity: 0.6; font-size: 70px;}
+.left { left: 1px;}
+.right{ right: 1px;}
+@media (min-width: 576px) { .row{ height: 25.3vw;}}
+@media (min-width: 768px) { .row{ height: 20.7vw;}}
+@media (min-width: 992px) { .row{ height: 16.5vw;}}
