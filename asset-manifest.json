@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jikan-api-front/static/css/main.97de0893.chunk.css",
+    "main.css": "/jikan-api-front/static/css/main.3e297fd6.chunk.css",
     "main.js": "/jikan-api-front/static/js/main.a5bcccda.chunk.js",
     "main.js.map": "/jikan-api-front/static/js/main.a5bcccda.chunk.js.map",
     "runtime-main.js": "/jikan-api-front/static/js/runtime-main.f3d885ce.js",
@@ -8,16 +8,16 @@
     "static/js/2.2eb4c3ed.chunk.js": "/jikan-api-front/static/js/2.2eb4c3ed.chunk.js",
     "static/js/2.2eb4c3ed.chunk.js.map": "/jikan-api-front/static/js/2.2eb4c3ed.chunk.js.map",
     "index.html": "/jikan-api-front/index.html",
-    "precache-manifest.e5d538e90e326cf78e6e3054e3d4a273.js": "/jikan-api-front/precache-manifest.e5d538e90e326cf78e6e3054e3d4a273.js",
+    "precache-manifest.2822f976f93a91fc80de3034a3fc98fc.js": "/jikan-api-front/precache-manifest.2822f976f93a91fc80de3034a3fc98fc.js",
     "service-worker.js": "/jikan-api-front/service-worker.js",
-    "static/css/main.97de0893.chunk.css.map": "/jikan-api-front/static/css/main.97de0893.chunk.css.map",
+    "static/css/main.3e297fd6.chunk.css.map": "/jikan-api-front/static/css/main.3e297fd6.chunk.css.map",
     "static/js/2.2eb4c3ed.chunk.js.LICENSE.txt": "/jikan-api-front/static/js/2.2eb4c3ed.chunk.js.LICENSE.txt",
     "static/media/App.css": "/jikan-api-front/static/media/hexagon.e61a0d2d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f3d885ce.js",
     "static/js/2.2eb4c3ed.chunk.js",
-    "static/css/main.97de0893.chunk.css",
+    "static/css/main.3e297fd6.chunk.css",
     "static/js/main.a5bcccda.chunk.js"
   ]
 }

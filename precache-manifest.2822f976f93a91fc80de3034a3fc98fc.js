@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c5c4dc2e1a645cbb9fef2fa874ca2ee",
+    "revision": "e3874ca1b0139709c1a086feb2b03774",
     "url": "/jikan-api-front/index.html"
   },
   {
-    "revision": "baa60f87fa1ac6314fda",
-    "url": "/jikan-api-front/static/css/main.97de0893.chunk.css"
+    "revision": "4a76911c0738cd5637a7",
+    "url": "/jikan-api-front/static/css/main.3e297fd6.chunk.css"
   },
   {
     "revision": "52bae538894a5110746d",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jikan-api-front/static/js/2.2eb4c3ed.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "baa60f87fa1ac6314fda",
+    "revision": "4a76911c0738cd5637a7",
     "url": "/jikan-api-front/static/js/main.a5bcccda.chunk.js"
   },
   {
